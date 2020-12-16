@@ -1,0 +1,49 @@
+{
+  "name": "lim013-fe-md-links",
+  "version": "1.0.0",
+  "description": "Markdown Links",
+  "main": "src/md-links.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node src/md-links.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarissaPaitanS/LIM013-fe-md-links.git"
+  },
+  "keywords": [
+    "js",
+    "node.js",
+    "links",
+    "markdown"
+  ],
+  "author": "ClarissaPaitanS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClarissaPaitanS/LIM013-fe-md-links/issues"
+  },
+  "homepage": "https://github.com/ClarissaPaitanS/LIM013-fe-md-links#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "fetch-mock": "^9.11.0",
+    "fetch-mock-jest": "^1.5.1",
+    "jest": "^26.6.3",
+    "jest-fetch-mock": "^3.0.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "filehound": "^1.17.4",
+    "marked": "^1.2.5",
+    "node-fetch": "^2.6.1",
+    "yargs": "^16.2.0"
+  },
+  "bin": {
+    "mdlinks": "src/cli.js"
+  }
+}
