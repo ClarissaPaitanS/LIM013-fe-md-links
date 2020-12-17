@@ -1,6 +1,6 @@
 {
-  "name": "lim013-fe-md-links",
-  "version": "1.0.0",
+  "name": "mdlinks-clarissapaitans",
+  "version": "1.0.1",
   "description": "Markdown Links",
   "main": "src/md-links.js",
   "directories": {
