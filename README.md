@@ -107,7 +107,10 @@ Unique: 3
 Broken: 1
 ```
 
-# Ejemplo:
 
+# Instalación:
+![](images/instalacion.png)
+
+# Ejemplo:
 ![](images/image.png)
 
